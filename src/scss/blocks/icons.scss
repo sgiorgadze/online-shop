@@ -1,0 +1,15 @@
+.icons{
+  display: flex;
+  align-items: center;
+  .icons__cart{
+    margin: 0 12px;
+  }
+  .icons__search{
+    position: relative;
+    margin-left: 12px;
+  }
+  .icons__img{
+    display: block;
+    cursor: pointer;
+  }
+}
