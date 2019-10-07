@@ -50,13 +50,36 @@ a{
   margin: 35px auto 0;
 
 }
-  
-}
+ }
+
+ .banner--left{
+  background: url('img/banner2.jpg')center no-repeat #d7dbd5;
+  background-size: cover;
+   justify-content: flex-start;
+  .banner__information{
+      margin-right: 0px;
+    margin-left: 70px;
+    }
+    a{
+      $values:(bg:#000, fs:14px , lh:23px, ls:0.7px,br:70px, w:205px, clr:#fff);
+      @include btn($values... );
+      padding: 24px 0;
+      margin: 35px auto 0;
+    
+    }
+ }
+
 @media(max-width:1100px){
   .banner{
     background-position: -150px 0;
     .banner__information{
       margin-right: 0;
+    }
+  }
+  .banner--left{
+    background-position: -175px 0;
+    .banner__information{
+      margin-left: 0;
     }
   }
 }
@@ -69,5 +92,8 @@ a{
       padding: 0 10px;
       box-sizing: border-box;
     }
+  }
+  .banner--left{
+    background:#d7dbd5; 
   }
 }

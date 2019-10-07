@@ -102,7 +102,7 @@
   }
   
     .owl-carousel .owl-nav button.owl-prev, button.owl-next{
-      background: url('../../../public/img/sprite-arrow.png') 0 0 no-repeat;
+      background: url('img/sprite-arrow.png') 0 0 no-repeat;
       width: 49px;
       height: 49px;
       border: none;
@@ -116,14 +116,14 @@
     }
 
     .owl-carousel .owl-nav button.owl-next{
-      background: url('../../../public/img/sprite-arrow.png') 0 0 no-repeat;
+      background: url('img/sprite-arrow.png') 0 0 no-repeat;
       background-position: -49px 0;
       left:auto;
       right:5px;
      
     }
     .owl-carousel .owl-nav button.owl-next:hover{
-      background-position: -49px 0;
+      background-position: -49px -50px;
     }
     .owl-carousel .owl-nav button.owl-prev:hover{
       background-position: 0 -49px;  
