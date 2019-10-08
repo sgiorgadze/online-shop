@@ -1,5 +1,5 @@
 .blog{
-  margin: 90px 0;
+  margin: 90px 0 -150px;
   .blog__title{
     font-size: 26px;
     line-height: 30px;
@@ -23,7 +23,7 @@
     }
     .blog__info{
       width: calc(100% - 70px);
-      background-color: red;
+      background-color: #fff;
       margin: 0 auto;
       transform: translateY(-50%);
       text-align: center;
